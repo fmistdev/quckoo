@@ -1,0 +1,81 @@
+{
+  "configVersion": 1,
+  "timestamp": 1689377625384,
+  "index": "https://fmistdev.github.io/quckoo/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://fmistdev.github.io/quckoo/favicon.ico",
+        "https://fmistdev.github.io/quckoo/index.html",
+        "https://fmistdev.github.io/quckoo/main.a137dda16538fc55.js",
+        "https://fmistdev.github.io/quckoo/manifest.webmanifest",
+        "https://fmistdev.github.io/quckoo/polyfills.1976c76d90af2237.js",
+        "https://fmistdev.github.io/quckoo/runtime.4c9e0cc02dde3c26.js",
+        "https://fmistdev.github.io/quckoo/styles.ef46db3751d8e999.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "cacheQueryOptions": {
+        "ignoreVary": true
+      },
+      "urls": [
+        "https://fmistdev.github.io/quckoo/assets/icons/icon-128x128.png",
+        "https://fmistdev.github.io/quckoo/assets/icons/icon-144x144.png",
+        "https://fmistdev.github.io/quckoo/assets/icons/icon-152x152.png",
+        "https://fmistdev.github.io/quckoo/assets/icons/icon-192x192.png",
+        "https://fmistdev.github.io/quckoo/assets/icons/icon-384x384.png",
+        "https://fmistdev.github.io/quckoo/assets/icons/icon-512x512.png",
+        "https://fmistdev.github.io/quckoo/assets/icons/icon-72x72.png",
+        "https://fmistdev.github.io/quckoo/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://fmistdev.github.io/quckoo/assets/icons/icon-128x128.png": "b1f06c7d714abb4a0cc4d1f7c954feb26826e4c4",
+    "https://fmistdev.github.io/quckoo/assets/icons/icon-144x144.png": "96a0d629765c1bc85d9263c6bc83094ca776d267",
+    "https://fmistdev.github.io/quckoo/assets/icons/icon-152x152.png": "b1fbbee3902eb96a7658e3bb006f31f78ca5a44c",
+    "https://fmistdev.github.io/quckoo/assets/icons/icon-192x192.png": "e4211163bf0911688fbfb80278d8ff4d2f77691d",
+    "https://fmistdev.github.io/quckoo/assets/icons/icon-384x384.png": "329749cd6393768d3131ed6304c136b1ca05f2fd",
+    "https://fmistdev.github.io/quckoo/assets/icons/icon-512x512.png": "559d9c4318b45a1f2b10596bbb4c960fe521dbcc",
+    "https://fmistdev.github.io/quckoo/assets/icons/icon-72x72.png": "279825a1ac4377032ae996a1832c641e33ccf1b6",
+    "https://fmistdev.github.io/quckoo/assets/icons/icon-96x96.png": "592885efcbfee27e5e20be4fa3043589390d2740",
+    "https://fmistdev.github.io/quckoo/favicon.ico": "22f6a4a3bcaafafb0254e0f2fa4ceb89e505e8b2",
+    "https://fmistdev.github.io/quckoo/index.html": "83be62d2a5ff307acdd5d8a0b7468d1abb66fa39",
+    "https://fmistdev.github.io/quckoo/main.a137dda16538fc55.js": "31bc583c5009d3a052d25263a950c6f7df741d6c",
+    "https://fmistdev.github.io/quckoo/manifest.webmanifest": "9a088b7c4339228d1082e666ce105dc889bc180c",
+    "https://fmistdev.github.io/quckoo/polyfills.1976c76d90af2237.js": "9b3036477909ea7ca9944b9d19137901fdadf67f",
+    "https://fmistdev.github.io/quckoo/runtime.4c9e0cc02dde3c26.js": "2befef5dcf1016fb03f841f7f20cf4b9c0eb7421",
+    "https://fmistdev.github.io/quckoo/styles.ef46db3751d8e999.css": "da39a3ee5e6b4b0d3255bfef95601890afd80709"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ],
+  "navigationRequestStrategy": "performance"
+}
